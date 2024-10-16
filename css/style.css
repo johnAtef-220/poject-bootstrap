@@ -1,0 +1,386 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ .navbar-brand {
+    font-size: 20px;
+    font-weight: 50px;
+
+}
+
+.navbar .nav .active{
+    background-color: rgb(255, 132, 0);
+    border-radius: 0px;
+
+}
+
+a{
+    color: black;
+}
+
+.interface {
+    background-image: url(../images/index.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+.interface h1{
+    font-size: 56px;
+}
+
+.ms-5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3px;
+}
+
+.courses-section {
+    margin-bottom: 5px;
+    
+}
+.card {
+
+    margin: 30px auto 0px;
+    width: 50%;
+    height: 100%;
+    border: 0px;
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+ 
+}
+.basic p{
+    padding: 0px;
+}
+.basic  small , .basic span{
+    margin-right: 2px; 
+}
+
+.courses-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.card .col-lg-4{
+    width: 80%;
+}
+
+.card .card-body .btn a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.card img {
+   height: 100%;
+   width: 50%;
+   
+}
+
+.card .price {
+    display: inline-block;
+    float: right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.card .price span {
+    color: red;
+}
+
+.courses-card .card-body {
+    padding: 22px;
+}
+.feuterd-body:after{
+position: absolute;
+bottom: 0;
+left: 0;
+height: 3px;
+width: 100%;
+background-color: #ff0000;
+content: "";
+}
+
+.card-body .btn:hover {
+    background-color: rgb(14, 14, 14);
+    border: solid  rgb(14, 14, 14);
+}
+
+.card .card-body .price, .card-title , .card-text {
+    padding: 4px;
+    margin-top: 10px;
+    
+}
+
+.card-body .auther img {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    
+}
+.card-body .auther p{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0px;
+    margin: 0px 0px 0px 5px;
+    
+}
+
+.auther .card-text{
+    float: right;
+}
+
+.btn {
+    background-color: rgb(255, 139, 1);
+}
+
+.btn:hover {
+    background-color: #ff6300;
+}
+
+div .title{
+    margin-top: 250px ;
+
+}
+.courses{
+    margin-bottom: 150px;
+}
+.courses-text {
+    margin: 20px;
+}
+
+.courses h6{
+    width: 70%;
+    margin: auto;
+}
+
+.courses .form{
+    
+    margin-top: 20px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form .button-course{
+    width: 197px;
+    height: 49px;
+    border: 0px;
+}
+
+.form  button{
+    width: 100%;
+    border: 0px;
+    border-radius:0px ;
+    height:100%;
+    outline: 0px;
+    padding: 5px;
+}
+
+
+.text h6 {
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.col-4 input{
+    background: rgb(238, 238, 238);
+    margin-bottom: 5px;
+    border-radius: 0px;
+    width: 100%;
+    border: 0px;
+    padding: 10px;
+    height: 49px;
+}
+.col-4 input:focus ,.col-4 input:hover{
+outline: 0px;
+border-bottom: 3px solid red;
+}
+ .col-lg-4  .card {
+    padding: 0px;
+    width: 80%;
+    
+    
+}
+.courses-card .co-lg-4 img{
+    width: 100%;
+    border: 0px;
+    
+}
+
+.courses-card .card{
+    height: 550px;
+    margin-bottom: 30px;
+    border: 0px;
+}
+.card .body-3 , .card .body-2 , .card .body-1 {
+    padding: 22px;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    
+}
+.auther-3 , .auther-2 , .auther-1 {
+    margin-top: -16px;
+}
+.card-body .auther-3 img , .card-body .auther-2 img ,.card-body .auther-1 img {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    
+}
+.card-body .auther-3 p , .card-body .auther-2 p , .card-body .auther-1 p{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.auther-3 .card-text , .auther-2 .card-text , .auther-1 .card-text {
+    float: right;
+}
+ 
+.auther-3 p ,.auther-2 p  , .auther-1 p{
+    margin-top: -2px;
+}
+
+.dashboard{
+    margin: 20px 0px 160px;
+    height: 600px;
+    background-size: cover;
+    background-image: url(../images/milestones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.dashboard img{
+    margin-bottom: 10px;
+}
+
+.dashboard .col-3 .title-progres{
+    width: 300px;
+    height: 113px;
+}
+
+.dashboard  h1{
+    font-size: 60px;
+}
+
+.dashboard h5{
+    font-size: 30px;
+}
+.dashboard .col-3 h1 ,.dashboard .col-3 h5 {
+    color: aliceblue;
+    
+}
+
+#collapseOne p{
+    padding-top: 20px;
+    line-height: 2.2;
+}
+
+.accordion{
+    margin-top: 73px;
+}
+
+.col .epril{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.col .event {
+    padding: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: #ff6300;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.event h3{
+    margin-bottom: 0px;
+    color: white;
+}
+
+.event p{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.col .text-event {
+    margin-left: 30px;
+}
+
+.col h1{
+    margin-bottom: 50px;
+}
+
+.news {    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 15px;
+
+}
+
+.latest-news .img-1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/news_1.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+.latest-news .img-2{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/news_2.jpg);
+    background-size: cover;
+    padding: 10px; 
+}
+.latest-news .img-3{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/news_3.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+.latest-news .img-4{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/news_4.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+.latest-news .text-news {
+    margin-left: 30px;
+}
+
+.latest-news p , h6{
+    margin-bottom: 3px;
+}
+
+.news small{
+    color: red;
+}
+
+div video{
+    width: 80%;
+}
